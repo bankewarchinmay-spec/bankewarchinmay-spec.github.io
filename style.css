@@ -1,7 +1,72 @@
 <link rel="stylesheet" href="style.css">
-body {
-  font-family: system-ui, sans-serif;
-  max-width: 600px;
-  margin: 40px auto;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0f0f0f;
+  color: #eaeaea;
+}
+
+main {
+  max-width: 520px;
+  padding: 40px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 2px solid #2a2a2a;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.links {
+  margin-top: 28px;
+}
+
+.links a {
+  display: inline-block;
+}
+
+.links svg {
+  width: 28px;
+  height: 28px;
+  fill: #aaa;
+  transition: fill 0.2s ease, transform 0.2s ease;
+}
+
+.links svg:hover {
+  fill: #0a66c2; /* LinkedIn blue */
+  transform: translateY(-2px);
+}
+
 

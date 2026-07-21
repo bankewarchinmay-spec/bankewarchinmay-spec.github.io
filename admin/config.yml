@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: bankewarchinmay-spec/bankewarchinmay-spec.github.io
+  branch: main
+
+media_folder: "assets/images"
+
+public_folder: "/assets/images"
+
+collections:
+  - name: "essays"
+    label: "Essays"
+    folder: "_posts"
+    create: true
+
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}

@@ -170,6 +170,14 @@ text-transform: uppercase;
     color: inherit;
 }
 
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active,
+.nav-item:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
 .nav-item.active {
 color: #fff;
 border-bottom: 1px solid #555;

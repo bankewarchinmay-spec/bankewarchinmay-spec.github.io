@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ page.title }} · Chinmay Bankewar</title>
+
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+
+<body>
+
+<header class="top-nav">
+    <a href="{{ '/' | relative_url }}" class="nav-item">About me</a>
+    <a href="{{ '/blog/' | relative_url }}" class="nav-item">Blog</a>
+</header>
+
+<main>
+    {{ content }}
+</main>
+
+</body>
+</html>

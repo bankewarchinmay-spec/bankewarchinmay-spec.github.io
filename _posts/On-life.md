@@ -1,5 +1,5 @@
 ---
-layout
+layout: post
 title: "On Humiliation Ritual called Life"
 date: 25/07/2026
 ---

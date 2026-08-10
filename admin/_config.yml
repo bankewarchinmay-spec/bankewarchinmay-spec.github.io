@@ -1,0 +1,8 @@
+title: "Chinmay Bankewar"
+description: "Personal website and blog"
+
+url: "https://bankewarchinmay-spec.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: /blog/:title/

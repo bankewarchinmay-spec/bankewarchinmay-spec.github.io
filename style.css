@@ -166,7 +166,8 @@ text-transform: uppercase;
 }
 
 .nav-item {
-color: #777;
+    text-decoration: none;
+    color: inherit;
 }
 
 .nav-item.active {
